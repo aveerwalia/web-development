@@ -1,0 +1,25 @@
+<html>
+<head><title>Swimming</title></head>
+<body>
+<table border 3>
+<tr>
+<th>Sport</th>
+<th>Athletes Name</th>
+<th>Gold Medals</th>
+<th>Country</th>
+</tr>
+<tr>
+<td>Swimming</td>
+<td>Michael Phelps</td>
+<td>23</td>
+<td>U.S.A</td>
+</tr>
+<tr>
+<td>Gymnastics</td>
+<td>Simon Vass</td>
+<td>7</td>
+<td>U.S.A</td>
+</tr>
+</table>
+</body>
+</html>
