@@ -1,0 +1,37 @@
+<html>
+<head><title>Kids Health</title></head>
+<body>
+<header>
+<h1>
+    Kids Care-Your Health Guide
+</h1>
+<nav>
+    <a href=""> Stay Healthy</a>
+    <a href=""> Quick Tips</a>
+    <a href="">Watch and Learn</a>
+</nav>
+</header>
+<main>
+    <section id="health">
+    <article>
+        <h2>Why your body needs excercise</h2>
+        <p>Your body is like a supercar the more you use it, the stronger it gets. Kids who move for 60 minutes every day are happier, sleep better, and perform better in academics</p>
+        <p>Dancing, swimming, football and yoga, anything that gets your heart beat faster counts. Keep moving and most importantly, have fun.</p>
+    </article>
+    <figure>
+        <img src="https://i.pinimg.com/originals/dc/58/54/dc5854fe424daa38b1bd49bf77f051ad.png" width="400"     height="500">
+        <figcaption>Active kids are happier and healthier every day.</figcaption>
+    </figure>
+</main>
+</section>
+<aside id="Tips">
+    <h3 id="media"> Quick health tips</h3>
+    <ul>
+        <li>Eat fruits and vegetables every day</li>
+        <li>Eight glasses of water daily</li>
+        <li>Sleep for at leats 9 hours every night</li>
+        <li>Move your body for 60 minutes a day</li>
+    </ul>
+</aside>
+</body>
+</html>
