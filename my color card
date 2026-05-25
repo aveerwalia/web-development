@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            My color card
+        </title>
+        <style>
+            body{
+                background-color:aqua;
+            }
+            h1{
+                color:darkblue;
+                font-size:30px;
+            }
+            h2{
+                color:blue;
+                font-size:22px;
+            }
+            p{
+                color:darkblue;
+                font-size:16;
+            }
+        </style>
+    </head>
+    <body>
+    <h1>
+        My color Card
+    </h1><br>
+    <h2>
+        Coloring the backgrounds and text
+    </h2><br>
+    <b>
+    <p class="p1">My name is Aveer.</p>
+    <p class="p2">I like the color blue.</p>
+    <p class="p3">I like playing Cricket.</p>
+    <p class="p4">Video Games are one of my hobbies.</p>
+    </b>
+    </body>
+</html>
