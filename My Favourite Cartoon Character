@@ -1,0 +1,74 @@
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Favourite Cartoon Character</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Internal CSS -->
+  <style>
+    body{
+      background-color:black;
+    }
+    h1{
+      color: white;
+      font-size: 34px;
+    }
+
+    .fun-fact {
+      color: white;
+      font-weight: bold;
+    }
+
+    #special-message {
+      color: white;
+      font-size: 18px;
+    }
+
+    h2, h3 {
+      color:white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Favourite Cartoon Character</h1>
+
+  <div id="character-card">
+
+    <h2>Jerry the Mouse</h2>
+
+    <p>
+      Jerry is my favourite cartoon character because he is wise,
+      speedy, and very funny.
+    </p>
+
+    <!-- Inline CSS -->
+    <p style="color: white; font-size: 18px;">
+      He uses his brain and takes advantage of his small size to solve problems in
+      creative ways.
+    </p>
+
+    <h3>Character Details</h3>
+    <ul style="color: white">
+      <li class="detail">Name: Jerry</li>
+      <li class="detail">Worst Enemy: Tom the Cat</li>
+      <li class="detail">Favourite Food: Cheese</li>
+      <li class="detail">Special Power: His wiseness</li>
+    </ul><br>
+
+    <p class="fun-fact">
+      Fun Fact: Jerry the Mouse is a very mature mouse who likes to drink wine.
+    </p><br>
+
+    <p id="special-message">
+      Jerry teaches us that size does not matter, but in fact what is in the inside does.
+    </p>
+
+  </div>
+
+</body>
+</html>
