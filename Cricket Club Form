@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Cricket Club</title>
+        <style>
+            body{
+                background-image:linear-gradient(to bottom, Navy, rgba(0, 183, 255, 0.489));
+                background-repeat:no-repeat;
+                background-position:top center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Cricket Club Form</h1>
+        <form>
+        <fieldset>
+            <label>
+                Name<br>
+            </label>
+                <input type="Text"><br>
+                    <label>Email</label><br>
+                <input type="Email"><br>
+                <label>Phone Number</label><br>
+                <input type="Phone Number"><br>
+                <label>Experience</label><br>
+                <input type="radio"value="1year">1 year<br>
+                <input type="radio" value="2year">2 years<br>
+                <input type="radio" value="3year">3 years<br>
+                <input type="radio" value="4year">4 years<br>
+                <input type="radio" value="5year">5 years<br>
+                <input type="radio" value="6year">6 years<br>
+                <input type="radio" value="7year">7 years<br>
+                <label>Preferred role</label><br>
+                <input type="radio" value="Batter">Batter<br>
+                <input type="radio" value="Bowler">Bowler<br>
+                <input type="radio" value="All Rounder">All Rounder<br>
+                date of birth <br>
+                <input type="date"><br>
+                <label>
+                    passion level
+                </label><br>
+                <select name="passion">passion
+                    <option> 100% </option>
+                    <option> 50% </option>
+                    <option> >25% </option>
+                </select><br><br>
+                <input type="text" id="club" name="club" placeholder="Enter your club name"><br>
+                <label>Do you Play Representatives(reps)</label><br>
+                <input  type="radio" value="Yes">Yes<br>
+                <input type="radio" value="No">No<br><br>
+                <input type="submit">
+        </fieldset>
+        </form>
+    </body>
+</html>
