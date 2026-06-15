@@ -1,0 +1,149 @@
+
+<html>
+
+<head>
+    <title>Zoo Rescue Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background:black;
+            padding: 25px;
+            padding-top: 70px;
+            min-height: 1200px;
+        }
+
+        h1,
+        h2 {
+            color:white;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .alert {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background:white;
+            color:black;
+            padding: 14px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .animal {
+            background:white;
+            border: 2px solid grey;
+            padding: 10px;
+            margin: 8px 0;
+            width: 220px;
+        }
+
+        .moved {
+            position: relative;
+            left: 35px;
+            background: white;
+        }
+
+        .card {
+            position: relative;
+            background: white;
+            border: 2px solid grey;
+            border-radius: 10px;
+            padding: 25px;
+            width: 230px;
+            text-align: center;
+        }
+
+
+            .number{
+            position: relative;
+            background: red;
+            border: 2px solid blue;
+            border-radius: 20px;
+            padding: 25px;
+            width: 303px;
+            text-align: center;
+            color:white;
+        }
+        .tag {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background: grey;
+            color: white;
+            padding: 6px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .zone {
+            position: sticky;
+            top: 50px;
+            background: white;
+            color:black;
+            padding: 10px;
+            margin-top: 25px;
+            font-weight: bold;
+        }
+
+        .case {
+            background: white;
+            border: 2px solid grey;
+            padding: 10px;
+            margin: 8px 0;
+            width: 230px;
+            border-radius: 8px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="alert">Zoo Rescue Alert - Emergency team active</div>
+
+    <h1>Zoo Rescue Tracker</h1>
+    
+    <h2>Where to Find the Animal</h2>
+    <div class="animal">Lion - Resting zone</div>
+    <div class="animal">Elephant - Water zone</div>
+    <div class="animal">Penguin - Ice zone</div>
+
+    <h2>These Animals Are Now Safe</h2>
+    <div class="animal">Giraffe - Checkup pending</div>
+    <div class="animal moved">Rescued Koala - Safe</div>
+    <div class="animal">Zebra - Feeding zone</div>
+
+    <h2>Current Status of the animal</h2>
+    <div class="card">
+        Panda<br>
+        Medical check complete
+        <div class="tag">SAFE</div>
+    </div>
+
+    <h2>Rescue Alert</h2>
+
+    <h2>Rescue Zone Label</h2>
+    <div class="zone">Rescue Zone Cases - Sticky</div>
+
+    <div class="case">Tiger - Observation</div>
+    <div class="case">Deer - Released</div>
+    <div class="case">Owl - Night care</div>
+    <div class="case">Turtle - Shell treatment</div>
+    <div class="case">Rabbit - Healthy</div>
+    <div class="case">Flamingo - Wing check</div>
+    <div class="case">Monkey - Play area</div>
+    <div class="case">Horse - Recovery stable</div><br><br>
+
+    <p class="number">
+        For any Extra Questions Call 0467896528.
+    </p>
+
+
+</body>
+
+</html>
