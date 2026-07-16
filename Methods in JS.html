@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+            Methods in Javascript
+        </title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+        </script>
+    </head>
+
+    <body>
+        <h1>
+            Javascript Array Methods
+        </h1>
+
+        <p>
+            Methods are an interesting topic in Javascript and today we will learn all about them.
+        </p>
+
+        <p id="demo"></p>
+
+        <p id="firstpop"></p>
+
+        <script>
+            var fruits=["apple", "grape", "mango", "orange", "banana"];
+
+            document.getElementById("demo").innerHTML=fruits.join("*");
+
+            fruits.pop();
+
+            document.getElementById("firstpop").innerHTML=fruits;
+        </script>
+    </body>
+</html>
