@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>
+            Javascript Objects
+        </title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+        </script>
+
+        <style>
+            body {
+                background-image:linear-gradient(to bottom, navy, blue, aqua, blue, navy) ;
+                color:white;
+            }
+
+            .card-label {
+                font-family: 'Times New Roman', Times, serif;
+                background-color: blue;
+            }
+
+            .card {
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Javascript Object
+        </h1>
+
+        <p>
+            Today we are learning about objects in Javascript.
+        </p>
+
+        <div class="card shadow-sm mb-3" style="max-width:400px;">
+            <div class="card-body">
+                <h5 class="card-title" style="color:chocolate;"> contact details</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list group-item">
+                        <span class="card-label d-block">NAME</span>
+                        <strong id="name"></strong>
+                    </li>
+
+                    <li class="list group-item">
+                        <span class="card-label d-block">PHONE</span>
+                        <strong id="phone"></strong>
+                    </li>
+
+                    <li class="list group-item">
+                        <span class="card-label d-block">SCHOOL</span> 
+                        <strong id="school"></strong>
+                    </li>
+
+                    <li class="list group-item">
+                        <span class="card-label d-block">CITY</span>
+                        <strong id="city"></strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card shadow-sm" style="max-width:400px;">
+
+            <div class="card-body">
+        </div>
+
+            <script>
+           var myContact = {
+                name: "Aveer Walia",      // key: name,   value: "Aveer Walia"
+                phone: "0470286262",      // key: phone,  value: "0470286262"
+                school: "Northmead PS",  // key: school, value: "Northmead PS"
+                city: "Sydney"            // key: city,   value: "Mumbai"
+            };
+
+            var name1= document.getElementById("name");
+
+            var phone1= document.getElementById("phone");
+
+            var school1= document.getElementById("school");
+
+            var city1= document.getElementById("city");
+
+
+            name1.textContent= myContact.name;
+
+            phone1.textContent = myContact.phone;
+
+            school1.textContent = myContact.school;
+
+            city1.textContent = myContact.city;
+         </script>
+    </body>
+</html>
