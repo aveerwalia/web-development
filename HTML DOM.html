@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            DOM in HTML
+        </title>
+
+        <style>
+            body {
+                background-color: aliceblue;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+                padding: 30px;
+            }
+
+            #zoo {
+                width: 300px;
+                padding: 12px;
+                border-radius: 10px;
+                border: 2px solid green;
+                margin: 16px auto;
+            }
+
+            .zone {
+                border: 2px solid brown;
+                border-radius: 6px;
+                padding: 8px 12px;
+                text-align: left;
+                margin: 6px 0;
+            }
+        </style>
+        <body>
+            <h2>
+                My Zoo
+            </h2>
+
+            <p>
+                Use Javascript and DOM to add animals to each cage.
+            </p>
+
+            <div id="zoo">
+                <div class="zone">zone 1: <span id="zone1"></span></div>
+                <div class="zone">zone 2: <span id="zone2"></span></div>
+                <div class="zone">zone 3: <span id="zone3"></span></div>
+                <div class="zone">total: <span id="total"></span></div>
+            </div><br>
+
+            <button onclick="openzoo()">Open the Zoo</button>
+
+            <p id="zoostatus"></p>
+
+            <script> 
+
+            function openzoo(){
+                document.getElementById("zone1").innerHTML="Gorilla";
+                document.getElementById("zone2").innerHTML="Elephant";
+                document.getElementById("zone3").innerHTML="Lion";
+                document.getElementById("total").innerHTML= "3";
+                document.getElementById("zoo").style.backgroundColor="lightgreen";
+                document.getElementById("zoostatus").innerHTML="zoo is now open";
+            }
+            </script>
+        </body>
+    </head>
+</html>
