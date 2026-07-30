@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>
+            My Playlist sorter
+        </title>
+    </head>
+
+    <body>
+        <h1 class="mb1">
+            My Playlist Sorter
+        </h1>
+
+        <p>
+            Sort and label your playlist using Javascript array methods
+        </p>
+
+        <div class="card-mb-4">
+            <div class="card-body">
+                <div class="card-title">
+                    My song playlist
+
+                    <button class="btn btn-primary mr-2" onclick="sortaz()">Sort A-Z</button>
+
+                    <button class="btn btn-primary mr-2" onclick="sortza()">Sort Z-A</button>
+
+                    <div id="nameresult" class="box p-3 mt-3 rounded"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="class-mb-4">
+
+            <div class="card-body">
+
+                <h3 class="card-title">
+                    Label every play count
+                </h3>
+            </div>
+        </div>
+
+        <script>
+            var songs = ["zoom", "bounce", "glow", "phantom", "rush", "spark"];
+
+            var plays = [320, 80, 210, 50, 170, 120];
+
+            document.getElementById ("namerestult").innerHTML = "songs : " + songs;
+
+            
+            document.getElementById("namerestult").innerHTML = "plays : " + plays;
+
+                
+            document.getElementById("namerestult").innerHTML = "press the button above : ";
+
+            function sortaz() {
+
+                songs.sort();
+
+                document.getElementById("nameresult").innerHTML = "Sort A-Z" + songs;
+            }
+
+             function sortza() {
+
+                songs.sort();
+ 
+                songs.reverse();
+
+                document.getElementById("nameresult").innerHTML = "Sort Z-A" + songs;
+            }
+
+            function sortlist {
+
+                plays.sort (function(a, b) {return a-b;})
+                
+            }
+
+        </script>
+    </body>
+</html>
