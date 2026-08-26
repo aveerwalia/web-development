@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            Palindrome App
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            Javascript Palindrome Checking App
+        </h1>
+
+        <script>
+           function palindrome(myString){
+            var input = myString.replace(/[^a-zA-Z]/g, "").toLowerCase();
+            var reversedinput = input.split(''). reverse(). join('');
+            if (input === reversedinput) {
+                document.write ("<div>" + myString + " is a palindrome <div>");    
+            }
+            else {
+                document.write("<div>" + myString + " not a palindrome <div>");
+            }is
+           } 
+
+           palindrome("malayalam")
+        </script>
+    </body>
+</html>
