@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>
+        Today Calendar
+    </title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: aquamarine;
+            background-image: linear-gradient(to bottom, navy, blue, aqua, white, aqua, blue, navy);
+        }
+
+        #MyClockDisplay {
+            font-size: 35px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Digital Clock
+    </h1>
+
+    <div id="MyClockDisplay" onload="ShowTime()"></div><b></b>
+
+    <script>
+        function showTime() {
+            var date = new Date();
+            var d = date.getDate();
+            var m = date.getMonth();
+            var y = date.getYear();
+
+            var time =  d + "/" + m + "/" + y;
+          
+              document.getElementById("MyClockDisplay").innerText = time;
+        }
+
+        showTime();
+    </script>
+</body>
+
+</html>
